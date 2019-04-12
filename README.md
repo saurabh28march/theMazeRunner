@@ -1,7 +1,7 @@
 # theMazeRunner
 we are going to make a website for hostelers of colleges, that will include the solution of their problems . 
 
-TECHNOLOGIS:
+TECHNOLOGIES:
 
 1.HTML
 
