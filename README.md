@@ -13,4 +13,5 @@ TECHNOLOGIES:
 
 5.FLASK
 
-FRAMEWORK:VUE.JS
+6.media quries
+
