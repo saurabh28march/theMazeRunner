@@ -11,7 +11,7 @@ TECHNOLOGIES:
 
 4.JAVASCRIPT
 
-5.FLASK
+5.PHP
 
 6.media quries
 
