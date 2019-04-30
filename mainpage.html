@@ -10,18 +10,28 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+
+
+ 
+
+
+
+
+
 </head>
 <body>
 
 <nav class="navbar navbar-inverse  navbar-dark" style="background-color: #030116;">
-  <div class="container-fluid">
-    <div class="navbar-header">
+  <div class="container-fluid" >
+    <div class="navbar-header"   >
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#"><i>HBTU hostels</i></a>
+      <a class="navbar-brand" href="C:\Users\user\Desktop/hostels.html"><i>HBTU hostels</i></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -35,20 +45,17 @@
           </ul>
         </li>
         <li><a href="#">About us</a></li>
-        <li><a href="#">Contents</a></li>
+        <li><a href="C:\Users\user\Desktop/complainn1.html">Complain</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="C:\Users\user\Desktop/signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="C:\Users\user\Desktop/login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
   </div>
 </nav>
-  
-<marquee width="100%" direction="left" >
-<a href="https://www.hbtu.ac.in"><i><h4>visit to HBTU official site</h4></i></a>
-</marquee>
-
+ 
+ 
  
    <style>
 .container {
@@ -57,10 +64,21 @@
   color: white;
 }
  
+.bottom-right {
+  position: absolute;
+  bottom: 1px;
+  right: 200px;
+  
+}
+
 </style>
 </head>
 <body> 
- <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+ 
+
+
+ <div id="myCarousel" class="carousel slide" data-ride="carousel"  style="margin-top: -20px">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -70,8 +88,11 @@
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
+
     <div class="item active">
-      <img src="C:\Users\user\Downloads/HBTU.jpg" alt="HBTU">
+
+      <img src="C:\Users\user\Downloads/HBTU.jpg"  alt="HBTU">
+      <div class="bottom-right"><a href=""><h3 style="color: black"><i>visit to hbtu official</i></h3></a></div>
     </div>
 
     <div class="item">
@@ -191,6 +212,20 @@ CONTENT ON THIS WEBSITE IS PUBLISHED AND MANAGED BY HBTU, KANPUR.</p>
  </center>
 
  </div>
+ 
+<script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBjIWNb-UANzMtPujPZAkrgbop8BNxtrBY",
+    authDomain: "hostel9999.firebaseapp.com",
+    databaseURL: "https://hostel9999.firebaseio.com",
+    projectId: "hostel9999",
+    storageBucket: "hostel9999.appspot.com",
+    messagingSenderId: "434326247526"
+  };
+  firebase.initializeApp(config);
+</script>
 
 </body>
 </html>
